@@ -1,4 +1,4 @@
-const apiKey = "d6923e7a2a6f4109b7c3d3c1bbf86eab";
+const apiKey = "";
 const apiCountryURL = "https://countryflagsapi.com/png/";
 
 const cityInput = document.querySelector("#city-input");
