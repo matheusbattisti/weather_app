@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clima agora!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/scripts.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <input
+          type="text"
+          placeholder="Digite uma cidade"
+          id="city-input"
+          value="palhoça"
+        />
+        <button id="search">Buscar</button>
+      </div>
+      <h2>O clima em: <span id="city"></span> <img id="country"></img></h2>
+      <p>Temperatura: <span id="temperature"></span>&deg;C</p>
+      <p id="description"></p>
+      <p id="umidity"></p>
+      <p id="wind"></p>
+    </div>
+  </body>
+</html>
